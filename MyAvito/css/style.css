@@ -166,10 +166,3 @@ body {
     text-decoration: none;   
     margin-bottom: 5px;
 }
-.content {
-    max-width: 460px;
-}
-.swiper-image {
-    width: 100%;
-    border-radius: 10px;
-}
