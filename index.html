@@ -20,27 +20,44 @@
                 <img src="images/logo.svg" alt="logo: Abito" class="logo-image">
             </a>
 
-            <nav class="navbar-menu">
-                <ul class="menu">
-                    <li class="menu-item">
-                        <a href="#" class="menu-link">Авто</a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="#" class="menu-link">Недвижимость</a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="#" class="menu-link">Работа</a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="#" class="menu-link">Услуги</a>
-                    </li>
-                </ul>
-            </nav>
-
-            <div class="button-group">
-                <a href="#" class="button button-link">Вход и регистрация</a>
-                <a href="#" class="button button-primary">Подать объявление</a>
+            <div class="navbar-panel">
+                <button class="close-menu">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 2L38 39M1 39L39.5 0.5" stroke="black"/>
+                    </svg>
+                </button>
+                   
+                <nav class="navbar-menu">
+                    <ul class="menu">
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">Авто</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">Недвижимость</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">Работа</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">Услуги</a>
+                        </li>
+                    </ul>
+                </nav>
+    
+                <div class="button-group">
+                    <a href="#" class="button button-link">Вход и регистрация</a>
+                    <a href="#" class="button button-primary">Подать объявление</a>
+                </div>
             </div>
+            <!-- /.navbar-panel -->
+
+            <button class="menu-button">
+                <svg width="30" height="16" viewBox="0 0 30 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.937476 2.37501H29.0624C29.58 2.37501 29.9999 1.95498 29.9999 1.43754C29.9999 0.920016 29.5799 0.500061 29.0624 0.500061H0.937476C0.419955 0.500061 0 0.920094 0 1.43754C0 1.95498 0.420033 2.37501 0.937476 2.37501Z" fill="black"/>
+                    <path d="M29.0624 7.06256H0.937476C0.419955 7.06256 0 7.48259 0 8.00003C0 8.51747 0.420033 8.9375 0.937476 8.9375H29.0624C29.58 8.9375 29.9999 8.51747 29.9999 8.00003C29.9999 7.48259 29.58 7.06256 29.0624 7.06256Z" fill="black"/>
+                    <path d="M29.0625 13.625H10.3125C9.79495 13.625 9.375 14.0451 9.375 14.5625C9.375 15.08 9.79503 15.5 10.3125 15.5H29.0625C29.58 15.5 29.9999 15.0799 29.9999 14.5625C30 14.045 29.58 13.625 29.0625 13.625Z" fill="black"/>
+                </svg>                    
+            </button>            
 
         </div>
         <!-- /.navbar -->
@@ -213,6 +230,7 @@
         </aside>
     </div>
     <!-- /.page-content -->
-
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
